@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Portfolio" />
+        <link rel="stylesheet" href="portfolio_github.css"/>
+    <style>
+        .header {
+          display: flex;
+          justify-content: flex-end;
+        }
+      </style>
+    <title>Jyotika Jaichand</title>
+  </head>
+  <body class="light" id="top">
+    <header class="header center">
+
+      <nav class="nav center">
+        <ul class="nav__list center">
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#projects">PROJECTS</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#skills">SKILLS</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#contact">CONTACT ME</a>
+          </li>
+        </ul>
+
+        <button type="button" aria-label="toggle theme" class="btn btn--icon">
+          <i aria-hidden="true" id="btn-theme" class="fas fa-moon"></i>
+        </button>
+
+        <button
+          type="button"
+          aria-label="toggle navigation"
+          class="btn btn--icon nav__hamburger"
+        >
+          <i aria-hidden="true" class="fas fa-bars"></i>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <!-- About -->
+      <div class="about center">
+        <h1>Hi, I am <span class="about__name">Jyotika Jaichand</span></h1>
+        <h2 class="about__role">Student. Developer. Coder</h2>
+        <p class="about__desc">
+          I'm a first year undergraduate student pursuing B.Tech in Electronics and Communication Engineering from Indira Gandhi Delhi Technical
+          University for Women. I am currently learning DSA in C++ and exploring Web development. My hobbies include travelling, sleeping and
+          listening to music.  
+        </p>
+        <div class="about__contact center">
+            <a href="https://github.com/jyotika6221" aria-label="GitHub" class="link link--icon">
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+        
+            <a href="https://www.linkedin.com/in/jyotika-jaichand/" aria-label="LinkedIn" class="link link--icon">
+              <i aria-hidden="true" class="fab fa-linkedin"></i>
+            </a>
+          </div>
+        </div>
+    
+
+      <!-- Projects -->
+      <section id="projects" class="section projects">
+        <h2 class="section__title">PROJECTS</h2>
+
+        <div class="projects__grid">
+          <div class="project">
+            <h3>AURORA-NORMID HACKATHON</h3>
+            <p class="project__description">
+                It is the layout designed for a web-based app for a club or that allows event planners to easily create, manage, and promote events. It included features
+                 such as event calendars, registration forms, email invitations, and is designed to be user-friendly for both event 
+                 planners and attendees. The celestial theme has beenintegrated throughout the UI. 
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">Figma</li>
+              <li class="project__stack-item">Canva</li>
+            </ul>
+
+            <a
+              href="https://github.com/jyotika6221/AURORA_NORMID"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+           </div>
+
+          <div class="project">
+            <h3>LIBRARY MANAGEMENT SYSTEM</h3>
+            <p class="project__description">
+                This is an online library management system for IGDTUW. It provides a platform for both admin and student to access all the features
+                 of a real library. Using this system, the admin can login, view, insert, update and delele the student as well as book details. 
+                 It also allows the student to issue a book, return a book, search for book recommendations and reserve a book.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">PYTHON</li>
+            
+            </ul>
+
+            <a
+              href="https://github.com/jyotika6221/LIBRARY-MANAGEMENT-SYSTEM"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+         </div>
+
+          
+        </div>
+      </section>
+
+      <!-- Skills -->
+      <section class="section skills" id="skills">
+        <h2 class="section__title">SKILLS</h2>
+        <ul class="skills__list">
+          <li class="skills__list-item btn btn--plain">C++</li>
+          <li class="skills__list-item btn btn--plain">C</li>
+          <li class="skills__list-item btn btn--plain">Python</li>
+          <li class="skills__list-item btn btn--plain">HTML</li>
+          <li class="skills__list-item btn btn--plain">CSS</li>
+          <li class="skills__list-item btn btn--plain">Javascript</li>
+          <li class="skills__list-item btn btn--plain">Git</li>
+          <li class="skills__list-item btn btn--plain">Figma</li>
+        </ul>
+      </section>
+
+<!-- Contact -->
+<section class="section contact center" id="contact">
+    <h2 class="section__title">Contact me</h2>
+    <div class="contact__links">
+      
+      <a href="https://github.com/jyotika6221" aria-label="GitHub" class="link link--icon">
+        <b class="fab fa-github">Github</b>
+      </a>
+      <a href="https://www.linkedin.com/in/jyotika-jaichand/" aria-label="LinkedIn" class="link link--icon">
+        <b class="fab fa-linkedin">Linkedin</b>
+      </a>
+    </div>
+  </section>
+  <div class="scroll-container">
+    <div class="scroll-top">
+      <a aria-label="Scroll up" href="#top">
+        <i aria-hidden="true" class="fas fa-arrow-up"></i>
+      </a>
+    </div>
+    </div>
+  </body>
+</html>
