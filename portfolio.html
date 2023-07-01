@@ -4,19 +4,22 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content="Portfolio" />
-        <link rel="stylesheet" href="portfolio.css"/>
+        <link rel="stylesheet" href="portfolio_github.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+
     <style>
         .header {
           display: flex;
           justify-content: flex-end;
         }
       </style>
+
     <title>Jyotika Jaichand</title>
   </head>
   <body class="light" id="top">
-    <header class="header center">
+    <header class="header sticky">
 
-      <nav class="nav center">
+      <nav class="nav">
         <ul class="nav__list center">
           <li class="nav__list-item">
             <a class="link link--nav" href="#projects">PROJECTS</a>
@@ -29,17 +32,9 @@
           </li>
         </ul>
 
-        <button type="button" aria-label="toggle theme" class="btn btn--icon">
-          <i aria-hidden="true" id="btn-theme" class="fas fa-moon"></i>
-        </button>
+      
 
-        <button
-          type="button"
-          aria-label="toggle navigation"
-          class="btn btn--icon nav__hamburger"
-        >
-          <i aria-hidden="true" class="fas fa-bars"></i>
-        </button>
+       
       </nav>
     </header>
 
@@ -82,12 +77,13 @@
               <li class="project__stack-item">Canva</li>
             </ul>
 
+
             <a
               href="https://github.com/jyotika6221/AURORA_NORMID"
               aria-label="source code"
               class="link link--icon"
             >
-              <i aria-hidden="true" class="fab fa-github"></i>
+              <i aria-hidden="true" class="fab fa-github"></i> GitHub
             </a>
            </div>
 
@@ -108,13 +104,37 @@
               aria-label="source code"
               class="link link--icon"
             >
-              <i aria-hidden="true" class="fab fa-github"></i>
+              <i aria-hidden="true" class="fab fa-github"></i> Github
             </a>
          </div>
 
           
         </div>
       </section>
+      <!-- Achievements -->
+<section class="section achievements">
+  <h2 class="section__title">Achievements</h2>
+  <ul class="achievements__list">
+    <li class="achievement__item">
+      <h3 class="achievement__title">Reliance Foundation Scholar'23</h3>
+      <p class="achievement__description"> I was selected as one of the top 5,000 students out of 40,000 applicants to have recieved this prestigious
+        scholarship based on my 12th result and aptitude test.
+      </p>
+    </li>
+    <li class="achievement__item">
+      <h3 class="achievement__title">Selected as an AI-ML intern under AI CLUB IGDTUW</h3>
+      <p class="achievement__description">I recieved training and internship oppurtunity to learn about Python libraries and Machine learning.
+        I have worked on two minor projects and will be working on a research paper.
+      </p>
+    </li>
+    <li class="achievement__item">
+      <h3 class="achievement__title">Hackathons</h3>
+      <p class="achievement__description">My team was the first runner up in an intra college hackathon out of 800+ participants. In another similar
+        hackthon, we ended up in the top 5. </p>
+    </li>
+  </ul>
+</section>
+
 
       <!-- Skills -->
       <section class="section skills" id="skills">
@@ -144,12 +164,16 @@
       </a>
     </div>
   </section>
-  <div class="scroll-container">
+  
+ 
+ <div class="scroll-container">
     <div class="scroll-top">
       <a aria-label="Scroll up" href="#top">
         <i aria-hidden="true" class="fas fa-arrow-up"></i>
       </a>
     </div>
     </div>
+
+
   </body>
 </html>
